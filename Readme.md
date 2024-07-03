@@ -61,19 +61,6 @@ airflow scheduler
 2. Ensure that the `process_real_estate_data` DAG is present.
 3. Activate the DAG.
 
-## Folder Structure
-
-```
-MINIPROJDATA/
-├── already_processed/
-├── dags/
-│   ├── airflow_env/
-│   ├── process_real_estate_dag.py
-├── result/
-├── toProcess/
-│   ├── houses.csv
-├── process_real_estate_data.py
-```
 
 - `already_processed/`: Contains processed CSV files.
 - `dags/`: Contains Airflow DAG and virtual environment.
