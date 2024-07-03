@@ -2,14 +2,6 @@
 
 Ce projet met en place un pipeline de données utilisant Apache Airflow pour traiter des fichiers CSV contenant des données immobilières. Le pipeline calcule la moyenne des prix des biens et stocke le résultat dans un nouveau fichier CSV.
 
-## Structure du Projet
-
-- `dags/`
-  - `housing_data_dag.py`: Fichier de définition du DAG.
-- `process_housing_data.py`: Script Python qui traite les fichiers CSV.
-- `toProcess/`: Répertoire contenant les fichiers CSV à traiter.
-- `result/`: Répertoire où les résultats sont stockés.
-- `already_processed/`: Répertoire où les fichiers traités sont déplacés.
 
 ## Prérequis
 
